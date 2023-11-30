@@ -8,6 +8,7 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* The general tab/background */
 body {
     height: 100vh;
     display: flex;
@@ -16,6 +17,7 @@ body {
     background-color: #f4f4f4;
 }
 
+/* The items within the box */
 .profile-card {
     display: flex;
     flex-direction: column;
@@ -29,18 +31,20 @@ body {
     position: relative;
 }
 
+/* The background sub color for the box */
 .profile-card::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    height: 36%;
+    height: 25%;
     width: 100%;
     border-radius: 24px 24px 0 0;
     background-color: green;
 
 }
 
+/* Profile box container */
 .image {
     position: relative;
     height: 150px;
@@ -51,6 +55,7 @@ body {
     margin-bottom: 10px;
 }
 
+/* Profile photo */
 .image .profile-img {
     height: 100%;
     width: 100%;
@@ -59,6 +64,7 @@ body {
     border: 3px solid #fff;
 }
 
+/* Title colors*/
 .profile-card .text-data {
     display: flex;
     flex-direction: column;
@@ -66,22 +72,26 @@ body {
     color: #333;
 }
 
+/* Titles - name */
 .text-data .name {
     font-size: 22px;
     font-weight: 500;
 }
 
+/* Titles - job */
 .text-data .job {
     font-size: 15px;
     font-weight: 400;
 }
 
+/* media buttons */
 .profile-card .media-buttons {
     display: flex;
     align-items: center;
     margin-top: 15px;
 }
 
+/* buttons */
 .media-buttons .link {
     display: flex;
     align-items: center;
@@ -96,6 +106,7 @@ body {
     text-decoration: none;
 }
 
+/* button gap */
 .profile-card .buttons {
     display: flex;
     align-items: center;
@@ -103,6 +114,7 @@ body {
 
 }
 
+/* buttons text */
 .buttons .button {
     color: #fff;
     font-size: 14px;
@@ -116,12 +128,14 @@ body {
     transition: all 0.3s ease;
 }
 
+/* analytics gap */
 .profile-card .analytics {
     display: flex;
     align-items: center;
     margin-top: 25px;
 }
 
+/* analytics spacers*/
 .analytics .data{
     display: flex;
     align-items: center;
@@ -130,11 +144,13 @@ body {
     border-right: 2px solid #e7e7e7;
 }
 
+/* analytics size */
 .data i {
     font-size: 18px;
     margin-right: 6px;
 }
 
+/* analytics removeable of spacers*/
 .data:last-child {
     border-right: none;
 }

@@ -32,3 +32,5 @@ highlighting the relearning process that has enriched my capabilities.
 - [Boxicons](https://boxicons.com/?query=share) Utilized a variety of icons from Boxicons to enhance the visual appeal and user interaction of the profile card.
 
 - [Google Fonts](https://fonts.google.com/) Incorporated diverse fonts from Google Fonts to add a typographic dimension, ensuring a harmonious and engaging design.
+
+- [Click here to view my Profile Card creation](https://davidhccnguyen.github.io/Relearn01-Profile-Card-UI-Design/)
